@@ -1,7 +1,7 @@
 const http = require('http')
 
 const server = http.createServer((req, res) => {
-res.write('hi');
+res.write('hi wow');
 res.end();
 });
 
